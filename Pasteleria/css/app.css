@@ -70,6 +70,8 @@
 .card img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    min-height: 200px;
+    max-height: 200px;
 }
 .card-container{
     display: flex;
@@ -158,8 +160,3 @@
     padding-left: 90px; /* same size as the label elements */
   }
   
-  button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: .5em;
-  }
