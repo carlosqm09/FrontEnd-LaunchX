@@ -1,7 +1,7 @@
 const content = document.querySelector("#content");
 
 const getClientView = async()=>{
-    const req = await fetch(`https://carlosqm09.github.io/Pasteleria/views/client.html`);
+    const req = await fetch(`../views/client.html`);
     const res = await req.text()
     console.log(res)
 
